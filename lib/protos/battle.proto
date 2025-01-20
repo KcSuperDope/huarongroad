@@ -1,0 +1,113 @@
+syntax = "proto3";
+
+option java_package = "com.gan.notice.grpc.proto";
+option java_outer_classname = "BattleProto";
+option objc_class_prefix = "HLW";
+option java_generic_services = true;
+
+package battle;
+// 战斗相关
+
+// 开始战斗推送
+// 20001
+message s2c_battle_start {
+  int64 battleId = 1;    // 战斗唯一id
+  string putData = 2;	 //摆放数据
+}
+
+
+// 用户战斗状态变化
+// 20002
+message s2c_battle_status {
+  int64 userId = 1;    // 用户id
+  int32 status = 2;	   //状态 1:观察中 2:复原中 3:已完成 4:挑战失败 5:离线中 6:正在重连
+}
+
+// 战斗倒计时
+// 20003
+message s2c_battle_countdown {
+  int32 second = 1;	//倒计时秒
+}
+
+// 战斗结果
+// 20004
+message s2c_battle_result {
+  msg_player_battle_result blueResult = 1; //己方对战结果
+  msg_player_battle_result redResult = 2;  //对方对战结果
+}
+
+// 匹配成功
+// 20005
+message s2c_match_suc {
+  int64 roomId = 1;	//房间id
+  msg_player_face_base face = 2;	//玩家信息
+}
+
+// 匹配成功后对方就绪取消
+// 20006
+message s2c_match_exit {
+  int64 userId = 1;	//就绪取消的用户
+}
+
+// 对战结果信息
+message msg_battle_result {
+  int32 result = 1;        // 对战结果0:胜 1:负
+  int32 time = 2;        // 通关时间,单位毫秒 0为未完成
+  int32 step = 3;        // 步数
+  int64 reviewId = 4;    // 录像回放id
+}
+
+// 玩家对战结果信息
+message msg_player_battle_result {
+  msg_player_face_base player = 1;  // 玩家头像基础信息
+  msg_battle_result result = 2;	   // 对战结果
+}
+
+// 玩家头像基础信息
+message msg_player_face_base {
+  int64 userId = 1;             // 玩家id
+  string nickName = 2;          // 玩家名
+  string avatar = 3;            // 头像
+  int32 boxId = 4;        // 头像框id
+}
+
+// 好友邀请战斗推送
+// 20007
+message s2c_battle_invite {
+  msg_player_face_base player = 1;	//邀请你对战的用户userId
+  int64 roomId = 2;	//房间id
+}
+
+// 好友接受邀请进入房间推送
+// 20008
+message s2c_battle_room_enter {
+  msg_player_face_base face = 1;	//进入的用户
+  int64 roomId = 2;	//房间id
+  int32 level = 3;	//难度
+}
+
+// 好友拒绝邀请推送
+// 20009
+message s2c_battle_refuse {
+  int64 userId = 1;	   //拒绝邀请的用户userId
+  string nickName = 2; // 拒绝邀请的玩家名
+}
+
+// 离开房间推送
+// 20010
+message s2c_battle_left {
+  int64 userId = 1;	   //离开的用户userId
+}
+
+// 房间切换难度推送
+// 20011
+message s2c_battle_level {
+  int32 level = 1;	//难度
+}
+
+// 对战准备状态推送
+// 20012
+message s2c_battle_ready_state {
+    int64 app_user_id = 1; // 准备的玩家APPuserID
+    bool is_ready = 2; // 是否准备
+}

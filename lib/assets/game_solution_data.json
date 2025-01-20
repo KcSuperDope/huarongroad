@@ -1,0 +1,827 @@
+{
+  "hrd": [
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong1-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将棋子分为左右两边；避免中轴线直接穿过棋子",
+        "images": [
+          "HRD-1 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "在【大方块】下方，插入两个【小方块】，形成【大方块+2小方块】的组合",
+        "images": [
+          "HRD-2 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将【大方块+2小方块】 的组合移动至最底部",
+        "images": [
+          "HRD-3 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "将【大方块】移动到中间",
+        "images": [
+          "HDR-01-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "以中轴线为分割线，将【竖棋】分为左右两边；一边一个、一边两个；",
+        "images": [
+          "HRD-4 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "将有两个竖棋的一边，按从上到下【小棋子+2竖棋】的顺序排列，并紧贴边缘；",
+        "images": [
+          "HRD-5 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "将有一个竖棋的一边，按从上到下【3小棋子+竖棋】的顺序排列，并紧贴另一边；\n也可以按照【小棋子+竖棋+2小棋子】的顺序排列;",
+        "images": [
+          "HRD-6 JT.jpg",
+          "HRD-7 JT.jpg"
+        ],
+        "type": 1
+      },
+      {
+        "title": "第四步",
+        "contentText": "将【大方块】从中间位置依次往下移动，直至复原",
+        "images": [
+          "HRD-02-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong2-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将棋子分为左右两边；避免中轴线直接穿过棋子",
+        "images": [
+          "HRD-8 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "在【大方块】下方，插入两个【小方块】，形成【大方块+2小方块】的组合",
+        "images": [
+          "HRD-9 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将【大方块+2小方块】 的组合移动至最底部.",
+        "bottomText": "在移动过程中，可能会遇到以下情况：",
+        "images": [
+          "HRD-10 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "【大方块+2小方块】组合与【竖棋】紧挨着，无法向下移动；",
+            "image": "HRD-11 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "使【竖棋】周围至少有4个小棋子",
+            "image": "HRD-03-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "在【竖棋+4小方块】下方空出两个空位；\n调整【竖棋】位置，使【大方块】与两个【小方块】紧挨着",
+            "image": "HRD-04-min.gif"
+          },
+          {
+            "title": "步骤3",
+            "content": "下移【大方块+2小方块】组合，同时使【竖棋】移动至大方块上方；",
+            "image": "HRD-05-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况2",
+            "content": "【竖棋】下方是【横棋】，无法下移；",
+            "image": "HRD-12 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "在【竖棋】下方新增两个小方块，并使【大方块+2小方块】组合与两个【小方块】紧挨着",
+            "image": "HRD-06-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "下移【大方块+2小方块】，同时使【竖棋】移动至大方块上方",
+            "image": "HRD-07-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第五步",
+        "contentText": "将【大方块】移动到中间",
+        "images": [
+          "HRD-08-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong3-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "将【横棋】移动到棋盘最底部，按【横棋】+【小棋子】+【小棋子】的顺序在排成一排；\n\n也可以按照【2小棋子+横棋】的顺序排列",
+        "images": [
+          "HRD-13 JT.jpg",
+          "HRD-14 JT.jpg"
+        ],
+        "type": 1
+      },
+      {
+        "title": "第三步",
+        "contentText": "以下图横线为分割线，将棋子分为上下两边；避免横线直接穿过棋子",
+        "images": [
+          "HRD-15 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将两个【竖棋】移动到横线上方，紧贴棋盘顶部；【大方块】移动至横线下方，位于棋盘中央；\n\n注意移动过程中，不挪动底部【横棋+2小棋子】的组合",
+        "bottomText": "在移动过程中，可能会遇到以下情况：",
+        "images": [
+          "HRD-16 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "【大方块】在横线上方，无法移动到横线下方",
+            "image": "HRD-17 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "下移【竖棋】，同时使【大方块】左右两边都是【2小棋子】的组合；",
+            "image": "HRD-09-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "将【大方块】下移至横线下方",
+            "image": "HRD-10-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第五步",
+        "contentText": "将【大方块+2小方块】 的组合移动至最底部.",
+        "bottomText": "在移动过程中，可能会遇到以下情况：",
+        "images": [
+          "HRD-17 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "【大方块】无法直接挪动至两个【小方块】上方",
+            "image": "HRD-18 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "下移另一侧的横线上方的两个单位，同时顶部棋子整体平移",
+            "image": "HRD-11-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "上移挡住【大方块】的棋子，随后将【大方块】移动至底部两个【小棋子】上方",
+            "image": "HRD-12-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第六步",
+        "contentText": "不挪动横线上方棋子，将大方块移动至正确位置",
+        "images": [
+          "HRD-13-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong4-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将棋子分为左右两边；避免中轴线直接穿过棋子",
+        "images": [
+          "HRD-20 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "在【大方块】下方，插入两个【小方块】，形成【大方块+2小方块】的组合",
+        "images": [
+          "HRD-21 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将【大方块+2小方块】 的组合移动至最底部",
+        "images": [
+          "HRD-22 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "将【大方块】移动到中间",
+        "images": [
+          "HRD-14-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong5-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将【竖棋】两两为一组，分为左右两边",
+        "images": [
+          "HRD-23 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "将中轴线任意一侧的棋子，按从上到下【小棋子+2竖棋】的顺序排列，并紧贴边缘",
+        "images": [
+          "HRD-24 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将另一侧的棋子，按从上到下【小棋子+2竖棋】的顺序排列，并紧贴另一边",
+        "images": [
+          "HRD-25 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "将【大方块】从中间位置依次往下移动，直至复原",
+        "images": [
+          "HRD-15-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong6-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将棋子分为左右两边；避免中轴线直接穿过棋子",
+        "images": [
+          "HRD-26 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "将两个【横棋】在靠近棋盘 “顶部 / 底部” 的位置，横向并排放置",
+        "images": [
+          "HRD-27 JT.jpg",
+          "HRD-28 JT.jpg"
+        ],
+        "type": 1
+      },
+      {
+        "title": "第四步",
+        "contentText": "使【竖棋】周围1格范围内，至少有4个【小棋子】，形成【竖块+4小方块】的组合",
+        "images": [
+          "HRD-29 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "在【大方块】下方，插入两个【小方块】，形成【大方块+2小方块】的组合",
+        "images": [
+          "HRD-30 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第六步",
+        "contentText": "将【大方块+2小方块】组合移动到棋盘最底部",
+        "bottomText": "在移动过程中，可能会遇到以下情况",
+        "images": [
+          "HRD-31 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "【大方块+2小方块】组合与【竖棋】紧挨着，无法向下移动；",
+            "image": "HRD-32 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "在【竖棋+4小方块】下方空出两个空位；\n\n调整【竖棋】位置，使【大方块】与两个【小方块】紧挨着",
+            "image": "HRD-16-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "下移【大方块+2小方块】，同时使【竖棋】移动至大方块上方",
+            "image": "HRD-17-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第七步",
+        "contentText": "将【大方块】移动到中间",
+        "images": [
+          "HRD-18-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong7-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "判断横棋位于大方块的上方还是下方",
+        "images": [
+          "HRD_button_top.png",
+          "HRD_button_bottom.png"
+        ],
+        "type": 2
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "将【小棋子】两两配对，形成完整的组合，确保没有单个或三个小棋子孤立存在",
+        "images": [
+          "wrong8-min.gif"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第二步",
+        "contentText": "以中轴线为分割线，将棋子分为左右两边；避免中轴线直接穿过棋子",
+        "images": [
+          "HRD-46 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "在【竖棋】两边放置2个【小棋子】，形成【竖棋+2小方块】的组合，总共两组",
+        "images": [
+          "HRD-47 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "将两个【竖棋】放置在一块",
+        "images": [
+          "HRD-48 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "在【大方块】下方，插入两个【小方块】，形成【大方块+2小方块】的组合",
+        "images": [
+          "HRD-49 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第六步",
+        "contentText": "将【大方块+2小方块】组合移动到棋盘最底部",
+        "bottomText": "在移动过程中，可能会遇到以下情况",
+        "images": [
+          "HRD-50 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "【大方块+2小棋子】与【2竖棋】组合在棋盘顶部紧挨着，无法向下移动",
+            "image": "HRD-51 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "将两个【横棋】移动至棋盘最底部",
+            "image": "HRD-26-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "将两个【小棋子】移动至【大方块+2小棋子】组合旁边，使其紧挨着",
+            "image": "HRD-27-min.gif"
+          },
+          {
+            "title": "步骤3",
+            "content": "下移【大方块+2小棋子】组合旁边，并恢复【2竖棋】组合；",
+            "image": "HRD-28-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第七步",
+        "contentText": "将【大方块】移动到中间",
+        "images": [
+          "HRD-29-min.gif"
+        ],
+        "type": 0
+      }
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "num": [
+    [
+      {
+        "title": "第一步",
+        "contentText": "按顺序依次复原顶层【1】【2】【3】",
+        "bottomText": "在移动过程中，可能会遇到以下情况",
+        "images": [
+          "SZ-01 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "数字【3】的位置被其他数字占住，无法归位",
+            "image": "SZ-02 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "将数字【3】移动至已归位的数字【2】后方，使其紧挨着",
+            "image": "SZ-01-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "将数字【1、2、3】逆时针转动一圈位置",
+            "image": "SZ-02-min.gif"
+          },
+          {
+            "title": "步骤3",
+            "content": "将数字【1、2、3】按顺时针方向移动，依次归位复原",
+            "image": "SZ-03-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第二步",
+        "contentText": "复原侧边位置【4】【7】",
+        "bottomText": "在移动过程中，可能会遇到以下情况",
+        "images": [
+          "SZ-03 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "数字【4、7】顺序颠倒相反，无法复原",
+            "image": "SZ-04 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "在数字【4、7】之间插入其他任意棋子",
+            "image": "SZ-04-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "将数字【4】移动至棋盘左下角",
+            "image": "SZ-05-min.gif"
+          },
+          {
+            "title": "步骤3",
+            "content": "将数字【7】移动至数字【4】右边；",
+            "image": "SZ-06-min.gif"
+          },
+          {
+            "title": "步骤4",
+            "content": "将数字【4、7】顺时针转动一圈",
+            "image": "SZ-07-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第三步",
+        "contentText": "复原数字【5】【6】【8】",
+        "images": [
+          "SZ-05 JT.jpg"
+        ],
+        "type": 0
+      }
+    ],
+    [
+      {
+        "title": "第一步",
+        "contentText": "按顺序依次复原顶层【1】【2】【3】【4】",
+        "bottomText": "在移动过程中，可能会遇到以下情况",
+        "images": [
+          "SZ-06 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "cycleData": [
+          {
+            "title": "情况1",
+            "content": "数字【3】【4】的位置顺序相反，无法归位",
+            "image": "SZ-07 JT.jpg"
+          },
+          {
+            "title": "步骤1",
+            "content": "将数字【1、2、3】归位，将数字【4】移动至已归位的数字【3】后方，使其紧挨着",
+            "image": "SZ-08-min.gif"
+          },
+          {
+            "title": "步骤2",
+            "content": "将数字【2、3、4】逆时针转动一圈位置",
+            "image": "SZ-09-min.gif"
+          },
+          {
+            "title": "步骤3",
+            "content": "将数字【2、3、4】按顺时针方向移动，依次归位复原",
+            "image": "SZ-10-min.gif"
+          }
+        ],
+        "type": 3
+      },
+      {
+        "title": "第二步",
+        "contentText": "复原左侧第一列【5】【9】【13】",
+        "images": [
+          "SZ-08 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第三步",
+        "contentText": "复原第二层【6】【7】【8】",
+        "images": [
+          "SZ-09 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第四步",
+        "contentText": "复原左侧第二列【10】【14】",
+        "images": [
+          "SZ-10 JT.jpg"
+        ],
+        "type": 0
+      },
+      {
+        "title": "第五步",
+        "contentText": "复原数字【11】【12】【15】",
+        "images": [
+          "SZ-11 JT.jpg"
+        ],
+        "type": 0
+      }
+    ]
+  ],
+  "buttonBottom": [
+    {
+      "title": "第三步",
+      "contentText": "将【横棋】移动到棋盘最底部，按【横棋+2小棋子】的顺序在排成一排；\n\n也可以按照【2小棋子+横棋】的顺序排列",
+      "images": [
+        "HRD-33 JT.jpg",
+        "HRD-34 JT.jpg"
+      ],
+      "type": 1
+    },
+    {
+      "title": "第四步",
+      "contentText": "以下图横线为分割线，将棋子分为上下两边；避免横线直接穿过棋子",
+      "images": [
+        "HRD-35 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "title": "第五步",
+      "contentText": "将三个【竖棋】移动到横线上方，紧贴棋盘顶部；【大方块】移动至横线下方，位于棋盘中央；\n\n注意移动过程中，不挪动底部【横棋+2小棋子】的组合",
+      "bottomText": "在移动过程中，可能会遇到以下情况",
+      "images": [
+        "HRD-36 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "cycleData": [
+        {
+          "title": "情况1",
+          "content": "【大方块】在横线上方，无法移动到横线下方",
+          "image": "HRD-37 JT.jpg"
+        },
+        {
+          "title": "步骤1",
+          "content": "下移【竖棋】，同时使【大方块】左右两边都是【2小棋子】的组合",
+          "image": "HRD-19-min.gif"
+        },
+        {
+          "title": "步骤2",
+          "content": "将【大方块】下移至横线下方",
+          "image": "HRD-20-min.gif"
+        }
+      ],
+      "type": 3
+    },
+    {
+      "title": "第六步",
+      "contentText": "将大方块挪动至两个【小棋子】上方",
+      "bottomText": "在移动过程中，可能会遇到以下情况",
+      "images": [
+        "HRD-38 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "cycleData": [
+        {
+          "title": "情况1",
+          "content": "【大方块】无法直接挪动至两个【小方块】上方",
+          "image": "HRD-39 JT.jpg"
+        },
+        {
+          "title": "步骤1",
+          "content": "下移另一侧的横线上方的两个单位，同时顶部棋子整体平移",
+          "image": "HRD-21-min.gif"
+        },
+        {
+          "title": "步骤2",
+          "content": "上移挡住【大方块】的棋子，随后将【大方块】移动至底部两个【小棋子】上方",
+          "image": "HRD-22-min.gif"
+        }
+      ],
+      "type": 3
+    },
+    {
+      "title": "第七步",
+      "contentText": "不挪动横线上方棋子，将大方块移动至正确位置",
+      "images": [
+        "HRD-23-min.gif"
+      ],
+      "type": 0
+    }
+  ],
+  "buttonTop": [
+    {
+      "title": "第三步",
+      "contentText": "将【横棋】移动到棋盘最顶部，按【横棋+2小棋子】的顺序在排成一排；\n\n也可以按照【2小棋子+横棋】的顺序排列",
+      "images": [
+        "HRD-40 JT.jpg",
+        "HRD-41 JT.jpg"
+      ],
+      "type": 1
+    },
+    {
+      "title": "第四步",
+      "contentText": "以中轴线为分割线，将【竖棋】分为左右两边；一边一个、一边两个",
+      "images": [
+        "HRD-42 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "title": "第五步",
+      "contentText": "将三个【竖棋】紧贴棋盘边缘；",
+      "images": [
+        "HRD-43 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "title": "第六步",
+      "contentText": "将【大方块】从中间位置依次往下移动，直至复原",
+      "bottomText": "在移动过程中，可能会遇到以下情况",
+      "images": [
+        "HRD-44 JT.jpg"
+      ],
+      "type": 0
+    },
+    {
+      "cycleData": [
+        {
+          "title": "情况1",
+          "content": "【大方块】左右两边与【竖棋】紧挨着，难以继续往下",
+          "image": "HRD-45 JT.jpg"
+        },
+        {
+          "title": "步骤1",
+          "content": "下移【大方块】，并让左右两边的【小方块】移动至【大方块】顶部",
+          "image": "HRD-24-min.gif"
+        },
+        {
+          "title": "步骤2",
+          "content": "左右两边的【竖棋】分别上移一格，让底部【小方块】可以挪开位置",
+          "image": "HRD-25-min.gif"
+        }
+      ],
+      "type": 3
+    }
+  ]
+}
